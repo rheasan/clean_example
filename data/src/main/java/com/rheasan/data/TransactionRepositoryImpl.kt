@@ -5,6 +5,7 @@ import com.rheasan.data.utils.toDomain
 import com.rheasan.data.utils.toEntity
 import com.rheasan.domain.entity.Transaction
 import com.rheasan.domain.TransactionRepository
+import kotlinx.coroutines.flow.map
 
 class TransactionRepositoryImpl(
     private val dao: TransactionDao
