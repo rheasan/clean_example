@@ -1,8 +1,9 @@
-package com.rheasan.data
+package com.rheasan.data.database
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
+import com.rheasan.data.TransactionEntity
 
 @Dao
 interface TransactionDao {
